@@ -131,26 +131,11 @@
     <ClCompile Include="imgui\imgui_widgets.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="offsets.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Aimbot.cpp">
-      <Filter>Source Files\features</Filter>
-    </ClCompile>
-    <ClCompile Include="skins.cpp">
-      <Filter>Source Files\features</Filter>
-    </ClCompile>
-    <ClCompile Include="HitPositionHelper.cpp">
-      <Filter>Source Files\helpers</Filter>
-    </ClCompile>
     <ClCompile Include="RuntimeSaverr.cpp">
       <Filter>Source Files\helpers</Filter>
     </ClCompile>
     <ClCompile Include="EventHelper.cpp">
       <Filter>Source Files\helpers</Filter>
-    </ClCompile>
-    <ClCompile Include="GrenadeTrajectory.cpp">
-      <Filter>Source Files\features</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -415,17 +400,11 @@
     <ClInclude Include="config.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Aimbot.hpp">
-      <Filter>Header Files\features</Filter>
-    </ClInclude>
     <ClInclude Include="skins.h">
       <Filter>Header Files\features</Filter>
     </ClInclude>
     <ClInclude Include="bahnschrift.hpp">
       <Filter>Header Files\fonts</Filter>
-    </ClInclude>
-    <ClInclude Include="clampnormalize.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HitPositionHelper.hpp">
       <Filter>Header Files\helpers</Filter>
@@ -438,12 +417,6 @@
     </ClInclude>
     <ClInclude Include="IViewRenderBeams.hpp">
       <Filter>Header Files\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="Autostrafertest.hpp">
-      <Filter>Header Files\features</Filter>
-    </ClInclude>
-    <ClInclude Include="GrenadeTrajectory.hpp">
-      <Filter>Header Files\features</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

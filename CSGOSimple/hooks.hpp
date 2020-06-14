@@ -3,7 +3,6 @@
 #include "valve_sdk/csgostructs.hpp"
 #include "helpers/vfunc_hook.hpp"
 #include <d3d9.h>
-#include "GrenadeTrajectory.hpp"
 
 namespace index
 {

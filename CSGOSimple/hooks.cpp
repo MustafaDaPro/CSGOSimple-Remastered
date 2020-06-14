@@ -1,6 +1,5 @@
 #include "hooks.hpp"
 #include <intrin.h>  
-#include "Aimbot.hpp"
 #include "render.hpp"
 #include "menu.hpp"
 #include "options.hpp"
@@ -10,7 +9,6 @@
 #include "features/chams.hpp"
 #include "features/visuals.hpp"
 #include "features/glow.hpp"
-#include "clampnormalize.h"
 #include <dos.h>
 #include <conio.h>
 #include "RuntimeSaver.h"
@@ -97,6 +95,9 @@ namespace Hooks {
 		ImGui_ImplDX9_NewFrame();
 		ImGui_ImplWin32_NewFrame();
 		ImGui::NewFrame();
+
+
+
 
 
 		auto esp_drawlist = Render::Get().RenderScene();
@@ -520,8 +521,6 @@ namespace Hooks {
 
 		ofunc(g_ClientMode, edx, vsView);
 
-		if (g_Options.esp_grenade_prediction && g_LocalPlayer->m_hActiveWeapon())
-			GrenadePrediction::Get().View(vsView);
 	}
 	//--------------------------------------------------------------------------------
 	void __fastcall hkLockCursor(void* _this)

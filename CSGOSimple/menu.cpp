@@ -280,6 +280,7 @@ void RenderMiscTab()
         ImGui::SliderFloat("Red", g_Options.mat_ambient_light_r, 0, 1);
         ImGui::SliderFloat("Green", g_Options.mat_ambient_light_g, 0, 1);
         ImGui::SliderFloat("Blue", g_Options.mat_ambient_light_b, 0, 1);
+        ImGui::Checkbox("Test", g_Options.example_for_tutorial);
         //ImGui::PopItemWidth();
 
         ImGui::Columns(1, nullptr, false);

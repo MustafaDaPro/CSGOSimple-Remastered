@@ -66,6 +66,7 @@ public:
 		OPTION(bool, esp_planted_c4, false);
 		OPTION(bool, esp_items, false);
 		OPTION(bool, esp_grenade_prediction, false);
+		OPTION(bool, example_for_tutorial, false);
 
 		// 
 		// GLOW

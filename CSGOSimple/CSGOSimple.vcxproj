@@ -102,12 +102,10 @@
     <ClCompile Include="features\chams.cpp" />
     <ClCompile Include="features\glow.cpp" />
     <ClCompile Include="features\visuals.cpp" />
-    <ClCompile Include="GrenadeTrajectory.cpp" />
     <ClCompile Include="helpers\input.cpp" />
     <ClCompile Include="helpers\math.cpp" />
     <ClCompile Include="helpers\utils.cpp" />
     <ClCompile Include="helpers\vfunc_hook.cpp" />
-    <ClCompile Include="HitPositionHelper.cpp" />
     <ClCompile Include="hooks.cpp" />
     <ClCompile Include="imgui\imgui.cpp" />
     <ClCompile Include="imgui\imgui_draw.cpp" />
@@ -116,11 +114,8 @@
     <ClCompile Include="imgui\impl\imgui_impl_win32.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="menu.cpp" />
-    <ClCompile Include="Aimbot.cpp" />
-    <ClCompile Include="offsets.cpp" />
     <ClCompile Include="render.cpp" />
     <ClCompile Include="RuntimeSaverr.cpp" />
-    <ClCompile Include="skins.cpp" />
     <ClCompile Include="ui.cpp" />
     <ClCompile Include="valve_sdk\csgostructs.cpp" />
     <ClCompile Include="valve_sdk\sdk.cpp" />
@@ -137,15 +132,11 @@
     <ClCompile Include="valve_sdk\netvars.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Aimbot.hpp" />
-    <ClInclude Include="Autostrafertest.hpp" />
     <ClInclude Include="bahnschrift.hpp" />
-    <ClInclude Include="clampnormalize.h" />
     <ClInclude Include="config.hpp" />
     <ClInclude Include="EventHelper.hpp" />
     <ClInclude Include="fonts\cousine.hpp" />
     <ClInclude Include="fonts\fonts.hpp" />
-    <ClInclude Include="GrenadeTrajectory.hpp" />
     <ClInclude Include="HitPositionHelper.hpp" />
     <ClInclude Include="imgui\impl\imgui_impl_dx9.h" />
     <ClInclude Include="imgui\impl\imgui_impl_win32.h" />

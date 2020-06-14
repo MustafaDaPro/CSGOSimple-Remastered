@@ -6,7 +6,6 @@
 #include "../helpers/math.hpp"
 #include "../helpers/utils.hpp"
 #include "../RuntimeSaver.h"
-#include "../GrenadeTrajectory.hpp"
 #include <iomanip>
 
 
@@ -444,10 +443,6 @@ void Visuals::AddToDrawList()
 		if (entity->IsLoot() && g_Options.esp_items) RenderItemEsp(entity);
 	}
 
-#ifndef _DEBUG
-	if (g_Options.esp_grenade_prediction)
-		GrenadePrediction::Get().Paint(nullptr);
-#endif
 
 }
 
